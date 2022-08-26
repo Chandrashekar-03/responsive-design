@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========================= BOX ICON CDN ===============================-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+   
+    <!--========================= SWIPER CDN ===============================-->
+    <!-- <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!--========================= CSS CDN ===============================-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <!--======================== HEADER SECTION =============================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <i class='bx bx-run'></i>
+                <div>Code<span>runway</span> </div>
+            </div>
+
+            <!-- NAV MENU -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#service" class="nav__link">Services</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">Portfolio</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#team" class="nav__link">Team</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#price" class="nav__link">Price</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <!-- NAV CLOSE -->
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+
+            <!-- NAV TOGGLE -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+    <!--======================== MAIN SECTION =============================-->
+    <main>
+        <!--======================== HOME SECTION =============================-->
+        <section class="home section">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <h3 class="home__first-title">We Create Ideas</h3>
+                    <h2 class="home__title">Build Stunning Website with <br> slack Agency.</h2>
+                    <p class="home__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elite, <br> Natus, 
+                        corrupti molestiae eius eligendi tenetur dolore <br> beatae unde et eos consequatur!
+                    </p>
+                </div>
+                <img src="./assets/images/homeimg.svg" alt="" class="home__img">
+            </div>
+        </section>
+        <section class="clients">
+            <div class="clients__container container">
+                <div class="client__grid grid">
+                    <img src="./assets/images/client1.svg" alt="" class="client__img">
+                    <img src="./assets/images/client2.svg" alt="" class="client__img">
+                    <img src="./assets/images/client3.svg" alt="" class="client__img">
+                    <img src="./assets/images/client4.svg" alt="" class="client__img">
+                    <img src="./assets/images/client5.svg" alt="" class="client__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="work section">
+            <div class="work__container container">
+                <div class="work__first-title first__bg first-title">How Work</div>
+                <h2 class="work__title f-800 section__title mb-1">How It Work?</h2>
+                <p class="work__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis asperiores dolores nihil inventore eveniet 
+                    minima aliquam aut reprehenderit cum atque. Deserunt impedit sint explicabo.
+                </p>
+                <div class="work__content grid">
+                    <div class="work__col">
+                        <div class="work__icon">
+                            <div class="work__number">
+                                01
+                            </div>
+                            <i class='bx bx-pencil'></i>
+                        </div>
+                        <h3 class="work__col-title f-600">
+                            Fill the form
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga cumque earum, id numquam quam vitae.
+                        </p>
+                    </div>
+                    <div class="work__col">
+                        <div class="work__icon">
+                            <div class="work__number">
+                                01
+                            </div>
+                            <i class='bx bxs-quote-alt-right'></i>
+                        </div>
+                        <h3 class="work__col-title f-600">
+                            Get a quote
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga cumque earum, id numquam quam vitae.
+                        </p>
+                    </div>
+                    <div class="work__col">
+                        <div class="work__icon">
+                            <div class="work__number">
+                                01
+                            </div>
+                            <i class='bx bx-headphone'></i>
+                        </div>
+                        <h3 class="work__col-title f-600">
+                            Relax
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga cumque earum, id numquam quam vitae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services pt-6" id="service">
+            <div class="service__container container">
+                <div class="service__first-title section__title first__bg first-title">Services</div>
+                <h2 class="service__title section__title f-800 mb-1">Services We Provide</h2>
+                <p class="service__description section__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, 
+                    quos doloribus molestiae totam tempore voluptatum!
+                </p>
+
+                <div class="service__data grid">
+                    <div class="service__col">
+                        <i class='bx bx-devices'></i>
+                        <div class="service__content">
+                            <h3 class="services__title f-600">
+                                Web Development
+                            </h3>
+                            <p class="services__description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Culpa molestiae neque eaque odit expedita sunt?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__col">
+                        <i class='bx bx-vector'></i>
+                        <div class="service__content">
+                            <h3 class="services__title f-600">
+                                Logo Design
+                            </h3>
+                            <p class="services__description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Culpa molestiae neque eaque odit expedita sunt?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__col">
+                        <i class='bx bx-devices'></i>
+                        <div class="service__content">
+                            <h3 class="services__title f-600">
+                                SEO & Optimization
+                            </h3>
+                            <p class="services__description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Culpa molestiae neque eaque odit expedita sunt?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__col">
+                        <i class='bx bx-envelope'></i>
+                        <div class="service__content">
+                            <h3 class="services__title f-600">
+                                Email Marketing
+                            </h3>
+                            <p class="services__description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Culpa molestiae neque eaque odit expedita sunt?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__col">
+                        <i class='bx bx-bug-alt'></i>
+                        <div class="service__content">
+                            <h3 class="services__title f-600">
+                                Bug Fixing
+                            </h3>
+                            <p class="services__description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Culpa molestiae neque eaque odit expedita sunt?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__col">
+                        <i class='bx bx-shape-triangle'></i>
+                        <div class="service__content">
+                            <h3 class="services__title f-600">
+                                UI & UX Design
+                            </h3>
+                            <p class="services__description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Culpa molestiae neque eaque odit expedita sunt?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+         <section class="portfolio section" id="portfolio">
+            <div class="portfolio__container container">
+            <div class="portfolio__first-title section__title first__bg first-title">Portfolio</div>
+            <h2 class="portfolio__title section__title f-800 mb-1">Our Latest Works</h2>
+            <p class="portfolio__description section__title">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates voluptatibus
+                ad in blanditiis. Quam, soluta consequuntur ipsa fugiat numquam tenetur.
+            </p>
+
+            <div class="work__box-table">
+                <div class="container__mb">
+                    <ul class="filter__menu">
+                        <li class="filter__item btn active-portfolio" data-filter="*">All</li>
+                        <li class="filter__item btn" data-filter=".brand">Barnding</li>
+                        <li class="filter__item btn" data-filter=".market">Marketing</li>
+                        <li class="filter__item btn" data-filter=".web">Web Design</li>
+                        <li class="filter__item btn" data-filter=".graphic">Graphic Design</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box__list grid">
+                <div class="mix box__item brand">
+                    <img src="./assets/images/img-1.jpg" alt="">
+                </div>
+                <div class="mix box__item market">
+                    <img src="./assets/images/img-2.jpg" alt="">
+                </div>
+                <div class="mix box__item brand">
+                    <img src="./assets/images/img-3.jpg" alt="">
+                </div>
+                <div class="mix box__item web">
+                    <img src="./assets/images/img-5.jpg" alt="">
+                </div>
+                <div class="mix box__item graphic">
+                    <img src="./assets/images/img-6.jpg" alt="">
+                </div>
+                <div class="mix box__item web">
+                    <img src="./assets/images/img-1.jpg" alt="">
+                </div>
+            </div>
+                
+            </div>
+        </section> 
+
+        <section class="number section">
+            <div class="number__container container grid">
+                <div class="number__content">
+                    <i class="bx bx-user"></i>
+                    <div class="number__text">
+                        <h1 class="number__title">256K+</h1>
+                        <div class="number__description">Active Users</div>
+                    </div>                  
+                </div>
+
+                <div class="number__content">
+                    <i class="bx bx-user"></i>
+                    <div class="number__text">
+                        <h1 class="number__title">100K+</h1>
+                        <div class="number__description">Team Members</div>
+                    </div>
+                </div>
+
+                <div class="number__content">
+                    <i class='bx bx-code-alt'></i>
+                    <div class="number__text">
+                        <h1 class="number__title">855K+</h1>
+                        <div class="number__description">Line Of Code</div>
+                    </div>
+                </div>
+
+                <div class="number__content">
+                    <i class='bx bx-coffee'></i>
+                    <div class="number__text">
+                        <h1 class="number__title">296K+</h1>
+                        <div class="number__description">Cup Of Coffee</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial section" id="testimonial">
+            <div class="testimonial__first-text section__title first__bg first-title">Testimonial</div>
+            <h2 class="testimonial__title section__title f-800 mb-1">10,000+ People Love Us</h2>
+            <p class="testimonial__description section__title">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae 
+                repellat <br> omnis nemo explicabo ex quos! Esse eligendi amet velit natus!
+            </p>
+            
+            <!-- Swiper -->
+            <div class="swiper testimonial__swiper container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testimonial__card">
+                        <img src="./assets/images/ceo1.webp" alt="" class="ceo__img">
+                        <h2 class="test__head">Matt Barrie</h2>
+                        <span>CEO & Founder at Freelancer</span>
+                        <p class="test__description">
+                            Time is the most precious thing you have when bootstrapping. You can't 
+                            take time to ponder on desig, Lorem ipsum dolor sit amet, consectetur adipisicing 
+                            elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="swiper-slide testimonial__card">
+                        <img src="./assets/images/ceo2.jpg" alt="" class="ceo__img">
+                        <h2 class="test__head">Micha Kaufman</h2>
+                        <span>Co-Founder, Chief Executive Officer & Director</span>
+                        <p class="test__description">
+                            Time is the most precious thing you have when bootstrapping. You can't 
+                            take time to ponder on desig, Lorem ipsum dolor sit amet, consectetur adipisicing 
+                            elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="swiper-slide testimonial__card">
+                        <img src="./assets/images/ceo3.webp" alt="" class="ceo__img">
+                        <h2 class="test__head">Hayden Brown</h2>
+                        <span>CEO of Upwork</span>
+                        <p class="test__description">
+                            Time is the most precious thing you have when bootstrapping. You can't 
+                            take time to ponder on desig, Lorem ipsum dolor sit amet, consectetur adipisicing 
+                            elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="team section" id="team">
+            <div class="team__container container">
+                <div class="team__first-title first-title section__title first__bg">Expert Team</div>
+                <h2 class="team__title section__title f-800">Client's Review of Work Satisfaction.</h2>
+                <p class="team__description section__title">
+                    There are many variations of passages of Lorem Ipsum available, but the 
+                    majority have suffered alteration in some form.
+                </p>
+                <div class="team__data grid">
+                    <div class="team__one">
+                        <img src="./assets/images/team1.jpg" alt="" class="team__img">
+                        <div class="team__overlay">
+                            <div class="team__content">
+                                <i class='bx bxl-facebook'></i>
+                                <i class='bx bxl-twitter'></i>
+                                <i class='bx bxl-instagram'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team__one">
+                        <img src="./assets/images/team2.jpg" alt="" class="team__img">
+                        <div class="team__overlay">
+                            <div class="team__content">
+                                <i class='bx bxl-facebook'></i>
+                                <i class='bx bxl-twitter'></i>
+                                <i class='bx bxl-instagram'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team__one">
+                        <img src="./assets/images/team3.jpg" alt="" class="team__img">
+                        <div class="team__overlay">
+                            <div class="team__content">
+                                <i class='bx bxl-facebook'></i>
+                                <i class='bx bxl-twitter'></i>
+                                <i class='bx bxl-instagram'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team__one">
+                        <img src="./assets/images/team4.jpg" alt="" class="team__img">
+                        <div class="team__overlay">
+                            <div class="team__content">
+                                <i class='bx bxl-facebook'></i>
+                                <i class='bx bxl-twitter'></i>
+                                <i class='bx bxl-instagram'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offer section">
+            <div class="offer__container container">
+                <h2 class="offer__title section__title m__title">We love to build awesome
+                    and useful softwares</h2>
+                <p class="offer__description section__title">
+                    Why I say old chap that is, spiffing off his nut cor blimey guvnords geeza
+                    bloke knees up bobby, sloshed arse William cack Richard. Bloke fanny around 
+                    chesed of bum bag old lost the pilot say there spiffing off his nut.
+                </p>
+                <button href="#" class="offer__btn">Get Started</button>
+            </div>
+        </section>
+
+        <section class="price section" id="price">
+            <div class="price__container container">
+                <div class="price__first-title section__title first__bg first-title">Pricing Plan</div>
+                <h2 class="price__title section__title f-800 mb-1 m__title">Choose Your Plan</h2>
+                <p class="price__description section__title">
+                    There are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered alteration in some form. 
+                </p>
+
+                <div class="price__data grid">
+                    <div class="price__col">
+                        <div class="price__rate">
+                            <div class="one">$59.00</div>
+                            <div class="two">For Enterprise Use</div>
+                        </div>
+                        <div class="price__bottom">
+                            <li>24/7 Great Support</li>
+                            <li>100% Safe & Secure</li>
+                            <li>No Hidden Charges</li>
+                            <li>One Time Purchase</li>
+                            <li>Unlimited Attachment</li>
+                        </div>
+                        <a href="#" class="price__btn">
+                            <div>Choose Plan</div>
+                            <i class='bx bxs-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                    <div class="price__col">
+                        <div class="price__rate">
+                            <div class="one">$79.00</div>
+                            <div class="two">For Enterprise Use</div>
+                        </div>
+                        <div class="price__bottom">
+                            <li>24/7 Great Support</li>
+                            <li>100% Safe & Secure</li>
+                            <li>No Hidden Charges</li>
+                            <li>One Time Purchase</li>
+                            <li>Unlimited Attachment</li>
+                        </div>
+                        <a href="#" class="price__btn">
+                            <div>Choose Plan</div>
+                            <i class='bx bxs-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                    <div class="price__col">
+                        <div class="price__rate">
+                            <div class="one">$89.00</div>
+                            <div class="two">For Enterprise Use</div>
+                        </div>
+                        <div class="price__bottom">
+                            <li>24/7 Great Support</li>
+                            <li>100% Safe & Secure</li>
+                            <li>No Hidden Charges</li>
+                            <li>One Time Purchase</li>
+                            <li>Unlimited Attachment</li>
+                        </div>
+                        <a href="#" class="price__btn">
+                            <div>Choose Plan</div>
+                            <i class='bx bxs-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq section">
+            <div class="faq__container container">
+                <div class="faq__first-title first-title">Freaquently Asked Question</div>
+                <h2 class="faq__title section__title m__title">We Have Some FAQ TO <br> Inform You More</h2>
+                <p class="faq__description section__title">
+                    There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form.
+                </p>
+
+                <div class="accordion__container">
+                    <div class="accordion__item">
+                        <div class="accordion__header">
+                            Material types can you work with?
+                        </div>
+                        <div class="accordion__body">
+                            <div class="accordion__body-content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque sed delectus ex 
+                                a aliquid saepe expedita dolorem quidem modi! Sapiente?
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <div class="accordion__header">
+                            Is Smart Lock required for insta apps?
+                        </div>
+                        <div class="accordion__body">
+                            <div class="accordion__body-content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque sed delectus ex 
+                                a aliquid saepe expedita dolorem quidem modi! Sapiente?
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <div class="accordion__header">
+                            Can i have multiple activities in a single feature?
+                        </div>
+                        <div class="accordion__body">
+                            <div class="accordion__body-content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque sed delectus ex 
+                                a aliquid saepe expedita dolorem quidem modi! Sapiente?
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <div class="accordion__header">
+                            Can I share resources between features?
+                        </div>
+                        <div class="accordion__body">
+                            <div class="accordion__body-content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque sed delectus ex 
+                                a aliquid saepe expedita dolorem quidem modi! Sapiente?
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe section">
+            <div class="subscribe__container container">
+                <div class="subscribe__first-title first-title section__title">
+                    Subscribe Now
+                </div>
+                <h2 class="subscribe__title section__title m__title">
+                    Subscribe To Our Newsletter To Get
+                    Update News On Your Inbox.
+                </h2>
+
+                <form action="" class="subscribe__form grid">
+                    <input type="text" name="" id="" placeholder="Your Name"> <br>
+                    <input type="text" name="" id="" placeholder="Your Email"> <br>
+                    <button class="form__btn">Subscribe Now</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact__container container">
+                <div class="contact__first-title first__bg">Contact Us</div>
+                <div class="contact__title section__title">Let's Cooperate!</div>
+                <p class="contact__description section__title">
+                    There are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered alteration in some form.
+                </p>
+                <div class="contact__data grid">
+                    <form action="" class="contact__form grid">
+                        <div class="contact__input grid">
+                        <input type="text" placeholder="Your Name"> <br>
+                        <input type="text" placeholder="Your Subject"> <br>
+                        <input type="text" placeholder="Your Email"> <br>
+                        <input type="text" placeholder="Your Phone"> <br>
+                        </div>
+                        <textarea type="text" name="" placeholder="Write something.."></textarea>
+                        <button class="contact__btn">Send Meassage</button>
+                    </form>
+
+                    <div class="contact__content grid">
+                        <div class="contact__location">
+                            <a href="https://www.google.com/maps">
+                                <i class='bx bx-current-location'></i>
+                            </a>
+                            <div class="location__content">
+                                <div>location</div>
+                                <span>76/6, Green valle, California United state</span>
+                            </div>
+                        </div>
+                        <div class="contact__location">
+                            <a href="https://accounts.google.com/v3/signin/identifier?dsh=S939760639%3A1661368501954704&continue=https%3A%2F%2Fcontacts.google.com%2F&followup=https%3A%2F%2Fcontacts.google.com%2F&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQN2RmVq-J3ShQCPVJ2ViM21ylD5c8CsIbypJXoyl1SXsdhBrGSavp-8oLK1c7mXa1POSVMnTDUy9Q">
+                                <i class='bx bx-phone-call'></i>
+                            </a>
+                            <div class="location__content">
+                                <div>Call Us</div>
+                                <span>+971 5345-56569</span>
+                            </div>
+                        </div>
+                        <div class="contact__location">
+                            <a href="https://mail.google.com/">
+                                <i class='bx bx-message-square-dots'></i>
+                            </a>
+                            <div class="location__content">
+                                <div>Mail Us</div>
+                                <span>support@gmail.com</span>
+                                <span>customer.care@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>      
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__header">
+                <div class="nav__logo">
+                    <i class='bx bx-run'></i>
+                    <div>Code<span>runway</span></div>
+                </div>
+                <p class="lorem15">Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Temporibus rerum nulla <br> quam quisquam cumque eum?</p>
+                <div class="footer__icons">
+                    <i class='bx blue bxl-facebook'></i>
+                    <i class='bx b-tw bxl-twitter'></i>
+                    <i class='bx b-in bxl-linkedin'></i>
+                    <i class='bx b-go bxl-google'></i>
+                </div>
+            </div>
+
+            <div class="footer__contacts grid">
+                <ul class="footer__menu">
+                    <h4 class="footer__title">About Us</h4>
+                    <li>Home</li>
+                    <li>Features</li>
+                    <li>Explore</li>
+                    <li>Testimonials</li>
+                </ul>
+                <ul class="footer__menu">
+                    <h4 class="footer__title">Features</h4>
+                    <li>Easy to use</li>
+                    <li>Work on all device</li>
+                    <li>Always up to date</li>
+                    <li>Track your devices</li>
+                </ul>
+                <ul class="footer__menu">
+                    <h4 class="footer__title">Services</h4>
+                    <li>Digital Marketing</li>
+                    <li>Content Writing</li>
+                    <li>SEO for Business</li>
+                    <li>UI Design</li>
+                </ul>
+                <ul class="footer__menu">
+                    <h4 class="footer__title">Contact Info</h4>
+                    <li>
+                        <i class='bx bx-location-plus'></i>
+                        <span>113 Sassnex, White House, <br> New Jercy, USA</span>
+                    </li>
+                    <li>
+                        <i class='bx bx-message-square-dots'></i>
+                        <span>info@yourdomain. <br> com</span>
+                    </li>
+                    <li>
+                        <i class='bx bx-phone-call'></i>
+                        <span>+001 548 159 2491</span>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer__bottom container">
+            <span>&#x000A9;All rights are reserved 2022 <a href="">Web Developer</a></span>
+        </div>
+    </footer>
+
+   
+
+    <!--========================= MIXIT UP CDN ===============================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js" integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--======================== SWIPER JS =============================-->
+    <!-- <link rel="stylesheet" href="/assets/js/swiper-bundle.min.js"> -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!--======================== APP JS =============================-->
+    <script src="./assets/js/app.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            var mixer = mixitup('.box__list');
+        });
+
+        
+    </script>
+
+    <script>
+        
+    </script>
+</body>
+</html>
